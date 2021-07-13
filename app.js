@@ -49,7 +49,7 @@ app.listen(port, function () {
 app.get("/", function (req, res) {
   Post.find({}, function (err, posts) {
     if (!err) {
-      res.render("Home", {
+      res.render("home", {
         StartingContent: homeStartingContent,
         posts: posts,
       });
