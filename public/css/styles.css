@@ -1,7 +1,12 @@
+body {
+  background-color: #cad5e2;
+}
+
 .container-fluid {
   padding-top: 70px;
   padding-bottom: 70px;
 }
+
 .navbar {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -10,9 +15,19 @@
   margin-bottom: 0;
   font-size: 12px;
   letter-spacing: 5px;
+  background-color: #03203c;
 }
 .navbar-nav li a:hover {
   color: #1abc9c !important;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #e8bd0d;
+}
+
+.navbar-default .navbar-brand > a {
+  color: #e8bd0d;
+  text-decoration: none;
 }
 
 .footer-padding {
@@ -25,7 +40,7 @@
   bottom: 0;
   width: 100%;
   height: 60px;
-  background-color: #1abc9c;
+  background-color: #03203c;
 }
 
 .footer p {
