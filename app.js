@@ -7,7 +7,7 @@ const _ = require("lodash");
 const mongoose = require("mongoose");
 
 mongoose.connect(
-  "mongodb+srv://mdbuser2021:mdbuser2021@cluster0.mg2g4.mongodb.net/postDB",
+  "mongo",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
